@@ -205,7 +205,12 @@ Filter and reorganize the ECM set
 View additional ECM details
 ***************************
 
-To view additional details about an ECM on the ECM Summaries Page, click the drop down arrow to the left of each ECM's name. A new window will drop down that provides more data on ECM attributes and displays a series of line plots.
+To view additional details about an ECM on the ECM Summaries Page, click the drop down arrow to the left of each ECM's name. A new window will drop down that provides more data on ECM attributes and displays a series of line plots. :numref:`line-plot-example` shows an example drop down window for a prospective Automated Fault Detection and Diagnosis (AFDD) ECM.
+
+.. _line-plot-example:
+.. figure:: images/ui_line_plot_example.*
+    
+   Detailed data for a prospective AFDD ECM include key input attributes (at left) and primary energy use, |CO2| emissions, or energy cost results for the ECM under three ECM adoption scenarios (at right).  In the energy use plot shown for this ECM, baseline primary energy use gradually increases across the modeled time horizon from 2.5 quads in 2015 to 3.35 quads in 2050; the ECM is ultimately able to reduce this baseline energy by more than 0.75 quads. The full impact of the ECM on baseline energy use is seen upon market entry in 2020 under a Technical Potential adoption scenario and by about 2040 under a Maximum Adoption Potential scenario. 
 
 Plots in the detailed ECM view show projected primary energy use, |CO2| emissions, or energy costs for the ECM under three ECM adoption scenarios (see :ref:`overview-adoption` for more details on ECM adoption):
 
@@ -213,7 +218,10 @@ Plots in the detailed ECM view show projected primary energy use, |CO2| emission
  2. a "Technical Potential" case where the ECM is assumed to entirely replace comparable baseline technologies upon market entry, and 
  3. a "Maximum Adoption Potential" case where the ECM's penetration into its baseline market is limited by more realistic baseline technology stock turnover.
  
-Each plot's x axis shows the year range for the projections; the y axis can be toggled to show the energy use, |CO2|, or cost outcome of interest.
+Each plot's x axis shows the year range for the projections; the y axis can be toggled to show the energy use, |CO2|, or cost outcome of interest. 
+
+.. tip::
+ To view y axis values associated with each point on the plot, mouse over the points of interest and the values will appear.
 
 .. note::
  Plotted results on the ECM Summaries Page are estimated for each ECM in isolation - e.g., no competition with other ECMs is accounted for.
@@ -288,9 +296,12 @@ Each of the  "Energy," "|CO2|," and "Costs" tabs features two types of plots - a
 Radar graphs
 ************
 
-The `radar graph`_ on the Analysis Results Page groups total energy, |CO2|, or cost results by end use, climate zone, or building class. The graph has several axes that emanate from a single point of origin; each axis represents a category for one of the three grouping variables. The magnitude of total energy, |CO2|, or cost attributed to each category is represented by the distance of a point on the category’s axis from the axis origin. 
+The `radar graph`_ on the Analysis Results Page groups total energy, |CO2|, or cost results by end use, climate zone, or building class. The graph has several axes that emanate from a single point of origin; each axis represents a category for one of the three grouping variables. The magnitude of total energy, |CO2|, or cost attributed to each category is represented by the distance of a point on the category’s axis from the axis origin. :numref:`radar-plot-example` shows an example radar graph for a portfolio of prospective and commercially available ECMs.
 
-Switch between the end use, climate zone, and building class grouping variables by selecting the appropriate radio button under the "Group By" label on the left-hand filter bar and clicking the "Apply Filter" button at the bottom of the filter bar.
+.. _radar-plot-example:
+.. figure:: images/ui_radar_plot_example.*
+    
+   In this radar graph, the overall primary energy use impact of an ECM portfolio that includes both prospective and commercially available ECMs is broken down by end use; results are shown for a Technical Potential adoption scenario run in the year 2030. Here, the envelope end use (pertaining to heating and cooling energy lost through building envelope components) makes the largest contribution to baseline energy use (5.3 quads) and ECM energy savings (2.6 quads). [#]_ Heating and water heating yield the second and third largest baseline energy use totals (3.8 and 3.1 quads, respectively); ECM energy savings are slightly higher for water heating than heating (1.6 quads water heating compared to 1.5 quads heating).   
 
 Results are shown for two energy use scenarios:
 
@@ -310,18 +321,25 @@ In scenario 2 ("Remaining") where some degree of ECM market penetration is assum
 1. "Technical Potential" adoption, where the ECM entirely replaces comparable baseline technologies upon market entry, or
 2. "Maximum Adoption Potential", where the ECM’s penetration into its baseline market is limited by realistic baseline technology stock turnover (see :ref:`overview-adoption` for more details on ECM adoption).
 
+Switch between the end use, climate zone, and building class grouping variables by selecting the appropriate radio button under the "Group By" label on the left-hand filter bar and clicking the "Apply Filter" button at the bottom of the filter bar.
+
 Change ECM adoption assumptions by adjusting the radio button under the "Adoption Scenario" label in the left-hand filter bar and clicking "Apply Filter" at the bottom of the filter bar.
 
 
 Bar graphs
 **********
 
-The `bar graph`_ on the Analysis Results Page attributes total avoided energy, |CO2|, or cost results to individual ECMs. The plot unfolds from left to right, beginning with a "Baseline" segment of energy use, |CO2|, or cost that is broken into "Avoided" and "Remaining" segments; each of these segments is then further attributed to the individual ECMs.
+The `bar graph`_ on the Analysis Results Page attributes total avoided energy, |CO2|, or cost results to individual ECMs. The plot unfolds from left to right, beginning with a "Baseline" segment of energy use, |CO2|, or cost that is broken into "Avoided" and "Remaining" segments; each of these segments is then further attributed to the individual ECMs. :numref:`bar-plot-example` shows an example bar graph for a portfolio of prospective and commercially available ECMs.
+
+.. _bar-plot-example:
+.. figure:: images/ui_bar_plot_example.*
+    
+    This bar graph attributes total avoided and remaining energy use after ECM portfolio adoption to individual ECMs in the portfolio, grouping each ECM by the end use that it applies to. In this case, representing a Technical Potential ECM adoption run for the year 2030, two heat pump water heating (HPWH) ECMs appear in the top 5 ECM contributions to total avoided energy use. This result stems from the generally high potential for energy use impacts in the water heating end use (see :numref:`radar-plot-example`) and the high performance levels of these HPWH ECMs relative to the baseline technologies they replace (here assumed to include gas-fired water heaters). Most of the ECMs on this list represent aspirational technologies with targeted cost and performance attributes.    
 
 .. tip::
     Clicking on the "Avoided" and "Remaining" segment bars shows the individual ECM contributions to each of these segments.
 
-The magnitude of each ECM’s contribution to the "Avoided" and "Remaining" segments is indicated in three ways:
+The magnitude of each ECM’s contribution to the "Avoided" and "Remaining" bar segments is indicated in three ways:
 
 1. by the ECM’s vertical position on the list of individual ECMs, with more impactful ECMs shown higher on the list, and 
 2. by the height of each ECM’s corresponding bar segment, and
@@ -336,7 +354,12 @@ As for the `ECM Summaries Page`_, previous ECM filter selections are cleared by 
 Scatterplots
 ************
 
-The `scatterplot`_ on the Analysis Results Page indicates the cost effectiveness of individual ECMs under multiple financial metrics - Internal Rate of Return (IRR), Simple Payback, Cost of Conserved Energy, and Cost of Conserved Carbon - each of which may be assigned to the x or y axis of the plot using adjacent dropdown menus.
+The `scatterplot`_ on the Analysis Results Page indicates the cost effectiveness of individual ECMs under multiple financial metrics - Internal Rate of Return (IRR), Simple Payback, Cost of Conserved Energy, and Cost of Conserved Carbon - each of which may be assigned to the x or y axis of the plot using adjacent dropdown menus. :numref:`scatter_plot-example` shows an example scatterplot for a portfolio of prospective and commercially available ECMs.
+
+.. _scatter_plot-example:
+.. figure:: images/ui_scatter_plot_example.*
+    
+    This scatterplot indicates the cost effectiveness of individual ECMs under two financial metrics, grouping ECMs by the end use(s) they apply to. In this case, representing a Technical Potential ECM adoption run for the year 2030, internal rate of return (IRR) and simple payback financial metrics are used on the x and y axes, respectively. ECMs toward the bottom right of the plot (lower payback, higher IRR) are most cost effective. Most ECMs in the plot region below 5 years payback and above an IRR of 10% apply to the envelope, water heating, or 'Multiple' end use categories, where the latter category reflects controls ECMs. Controls ECMs look particularly favorable here since their targeted cost and performance attributes were developed under a more aggressive payback requirement than other ECM types (~1 year). For example, the highlighted 'Commercial Comfort Ctl.' ECM yields a 1.1 year payback in 2030, though this ECM only saves 0.1 quads of energy because its application was restricted to large offices for this run.   
 
 .. note::
     For all of the financial metrics except for IRR, a higher number signifies lower ECM cost effectiveness.
@@ -431,7 +454,7 @@ Once all steps of the Baseline Energy Calculator have been completed, click the 
 .. _ENERGY STAR: https://www.energystar.gov/products?s=mega 
 .. _IECC: https://www.iccsafe.org/codes-tech-support/codes/2018-i-codes/iecc/
 .. _ASHRAE 90.1: https://www.ashrae.org/resources--publications/bookstore/standard-90-1
-.. _Analysis Results Page: http://52.55.6.74/home.html
+.. _Analysis Results Page: http://52.55.6.74/energy.html
 .. _radar graph: https://datavizcatalogue.com/methods/radar_chart.html
 .. _bar graph: https://datavizcatalogue.com/methods/stacked_bar_graph.html
 .. _scatterplot: https://datavizcatalogue.com/methods/scatterplot.html
@@ -445,5 +468,6 @@ Once all steps of the Baseline Energy Calculator have been completed, click the 
 
 .. [#] In the special case of a "Heating," "Secondary Heating," and/or "Cooling" end use selection, an additional "Technology Type" input will appear, as heating/cooling technologies may be categorized as equipment (e.g., an efficient air source heat pump) or as envelope components (e.g., a highly insulating window). Choosing "Equipment" as the "Technology Type" will yield subsequent "Fuel Type" and "Technology" inputs. Choosing "Envelope" as the "Technology Type" skips the "Fuel Type" input and moves you straight to the "Technology" input; this reflects that the energy use associated with envelope components is not tied to a specific fuel type. 
 .. [#] EnergyPlus Measure performance data are always provided with units of relative savings.
+.. [#] Envelope energy use totals in :numref:`radar-plot-example` reflect simultaneous improvements in the efficiency of the heating and cooling equipment and lighting end uses (contributing 3.8, 2.0, and 1.6 quads of baseline energy use, respectively).
 .. [#] When both residential and commercial buildings are selected in step 3, subsequent end use and technology selections in step 4 will reflect both of these sectors. For example, in the end use dropdown menu, both "Secondary Heating" (residential only) and "Ventilation" (commercial only) end uses will be shown, while in the technology dropdown menu, "Wood Stove" (residential only) and "Engine-driven Heat Pump" (commercial only) will be shown. 
 .. [#] In the special case of a "Heating," "Secondary Heating," and/or "Cooling" end use selection, an additional "Equipment" and "Envelope" toggle will appear, as heating/cooling technologies may be categorized as equipment (e.g., an efficient air source heat pump) or as envelope components (e.g., a highly insulating window). Toggling "Equipment" will yield subsequent "Fuel Type" and "Technology" inputs. Toggling "Envelope" as the "Technology Type" skips the "Fuel Type" input and moves you straight to the "Technology" input; this reflects that the energy use associated with envelope components is not tied to a specific fuel type. 
