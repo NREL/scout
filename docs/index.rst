@@ -36,4 +36,4 @@ Documentation Contents
 .. * :ref:`modindex`
 .. * :ref:`search`
 
-.. _Scout web interface: http://52.55.6.74/home.html
+.. _Scout web interface: https://scout.energy.gov/home.html

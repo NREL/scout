@@ -438,27 +438,26 @@ Once all steps of the Baseline Energy Calculator have been completed, click the 
     Initial results may cleared by clicking the "Reset" button or updated by clicking the "Calculate" button again.
 
 
-.. _Landing Page: http://52.55.6.74/home.html
+.. _Landing Page: https://scout.energy.gov/home.html
 .. _Welcome Page: http://scout-bto.readthedocs.io/en/latest/
-.. _ECM Summaries: http://52.55.6.74/ecms.html
-.. _Analysis Results: http://52.55.6.74/energy.html
-.. _Baseline Energy Calculator: http://52.55.6.74/baseline-energy-calculator.html
+.. _ECM Summaries: https://scout.energy.gov/ecms.html
+.. _Analysis Results: https://scout.energy.gov/energy.html
+.. _Baseline Energy Calculator: https://scout.energy.gov/baseline-energy-calculator.html
 .. _Quick Start Guide: http://scout-bto.readthedocs.io/en/latest/quick_start_guide.html
 .. _Contribute: https://github.com/trynthink/scout
 .. _Report an Issue: https://github.com/trynthink/scout/issues/new
 .. _Source Code: https://github.com/trynthink/scout/releases
-.. _ECM Summaries Page: http://52.55.6.74/ecms.html
+.. _ECM Summaries Page: https://scout.energy.gov/ecms.html
 .. _Add-on type ECMs: http://scout-bto.readthedocs.io/en/latest/tutorials.html#add-on-type-ecms
 .. _EnergyPlus Measure: https://energy.gov/eere/buildings/articles/there-s-measure
 .. _probability distribution: https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.random.html
 .. _ENERGY STAR: https://www.energystar.gov/products?s=mega 
 .. _IECC: https://www.iccsafe.org/codes-tech-support/codes/2018-i-codes/iecc/
 .. _ASHRAE 90.1: https://www.ashrae.org/resources--publications/bookstore/standard-90-1
-.. _Analysis Results Page: http://52.55.6.74/energy.html
+.. _Analysis Results Page: https://scout.energy.gov/energy.html
 .. _radar graph: https://datavizcatalogue.com/methods/radar_chart.html
 .. _bar graph: https://datavizcatalogue.com/methods/stacked_bar_graph.html
 .. _scatterplot: https://datavizcatalogue.com/methods/scatterplot.html
-.. _Baseline Energy Calculator: http://52.55.6.74/baseline-energy-calculator.html
 .. _Annual Energy Outlook: https://www.eia.gov/outlooks/aeo/
 .. _RECS 2009: https://www.eia.gov/consumption/residential/maps.php
 .. _CBECS 2003: https://www.eia.gov/consumption/commercial/maps.php#defined

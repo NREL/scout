@@ -99,9 +99,9 @@ Alternatively, open the |html-filepath| ./results/plots |html-fp-end| folder to 
 
 .. _Download the latest version of Scout: https://github.com/trynthink/scout/releases/latest
 
-.. _ECM Summaries Page: http://52.55.6.74/ecms.html
+.. _ECM Summaries Page: https://scout.energy.gov/ecms.html
 
-.. _Analysis Results Page: http://52.55.6.74/energy.html
+.. _Analysis Results Page: https://scout.energy.gov/energy.html
 
 .. rubric:: Footnotes
 
